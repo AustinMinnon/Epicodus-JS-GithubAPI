@@ -5,9 +5,9 @@ exports.getRepos = function(username){
    var repos = response;
    console.log(repos);
    for(var i = 0; i < response.length; i++)
-      $("#repoName").append("<li>" + response[i].name + "</li>");
+      $("#repoName").append("<li>" + response[i].name + "</li><br>");
    for(var i = 0; i < response.length; i++)
-      $("#repoDescription").append("<li>" + response[i].description + "</li>");
+      $("#repoDescription").append("<li>" + response[i].description + "</li><br>");
 
   }).fail(function(error){
    console.log(error.responseJSON.message);
