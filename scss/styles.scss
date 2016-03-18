@@ -1,13 +1,31 @@
-$gray : #d3d3d3;
+$navy : #34495E;
+$Lwhite: #F4F6F6;
 
-.box {
-  background: $gray;
+body{
+  background-image: url("/bg1.png");
+  background-position: top;
+}
+
+#input {
+  text-align:left;
+  background: $Lwhite;
   border: 3px solid black;
-  padding: 40px 80px;
-  .button {
-    font-weight: bold;
-    text-align: center;
-    background: maroon;
-    color: white;
-  }
+  padding: 10px 30px;
+}
+
+#repoName {
+  text-align: left;
+}
+#repoDescription{
+  text-align: left;
+}
+
+ol{
+  color: $Lwhite;
+}
+
+h2, h3{
+  color: $Lwhite;
+  text-decoration-line: underline;
+  padding: 10px;
 }
