@@ -5,18 +5,26 @@
     <link rel="stylesheet" href="build/css/styles.css">
     <script src="build/js/vendor.min.js"></script>
     <script type="text/javascript" src="build/js/app.js"></script>
-    <title>Title</title>
+    <title>Repository Search Engine</title>
   </head>
   <body>
-    Hello world
-    <div class="box">
-    <form id="signup">
-        <div class="form-group">
-          <button class="button btn-success" type="submit">Submit</button>
+    <img src="./../img/hub.png" alt="Github logo" />
+    <h2>Search Repositories by <em>username</em>.</h2>
+    <div id="input">
+      <input type="text" name="username" id="username" placeholder="Github User">
+      <button class="button btn-info" id="search" type="submit">Search</button>
+    </div>
+    <div class="row">
+      <ol>
+        <div id="repoName" class="col-md-6 left-side">
+          <h3> Repository Name </h3>
         </div>
-      </form>
-      <h3>Well look at the time! </h3>
-      <h3 id="time"></h3>
+      </ol>
+      <ol>
+        <div id="repoDescription" class="col-md-3 right-side">
+          <h3> Description </h3>
+        </div>
+      </ol>
     </div>
   </body>
 </html>
