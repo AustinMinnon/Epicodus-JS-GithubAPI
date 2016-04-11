@@ -23,6 +23,10 @@ _Input a username, and see all public repositories listed._
 
 _Javascript, jQuery, Node, Bower, Gulp, SASS, Bootstrap_
 
+##GitHub Pages
+http://austinminnon.github.io/Epicodus-Js-Ember-Q-A
+
+
 ### License
 
 _MIT license_
